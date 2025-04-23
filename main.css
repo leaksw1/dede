@@ -243,8 +243,11 @@
         }
 
         .hero {
-            min-height: 100vh;
-          }
+            padding: 180px 0 100px;
+            background-color: var(--light-bg);
+            position: relative;
+            overflow: hidden;
+        }
           
           .counters .counter {
             font-size: 2.8rem;
