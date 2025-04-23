@@ -108,7 +108,7 @@
         }
 
         .logo img {
-            height: 75px;
+            height: 125px;
         }
 
         .header-contact {
@@ -242,7 +242,35 @@
             cursor: pointer;
         }
 
-        *section 2*/
+        /*hero*/
+
+        .hero {
+            min-height: 60vh;
+          }
+
+        .btn-primary {
+            background-color: var(--primary-blue);
+            border-color: var(--primary-blue);
+          }
+          
+          .btn-outline-primary {
+            color: var(--primary-blue);
+            border-color: var(--primary-blue);
+          }
+          
+          .btn-outline-primary:hover, .btn-primary:hover {
+            background-color: var(--accent-green);
+            border-color: var(--accent-green);
+          }
+          
+          section {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+          }
+
+         
+
+        /*section 2*/
 .section-grid {
   display: grid;
   grid-template-columns: 1fr 1.8fr;
