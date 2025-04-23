@@ -244,6 +244,10 @@
 
         /* Hero Section */
         .hero {
+            min-height: 60vh;
+          }
+          
+        .hero {
             padding: 180px 0 100px;
             background-color: var(--light-bg);
             position: relative;
